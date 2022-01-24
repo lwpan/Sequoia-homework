@@ -2,7 +2,7 @@ package com.liuwangpan.urlconvert.controller;
 
 import com.liuwangpan.urlconvert.common.UrlConvertException;
 import com.liuwangpan.urlconvert.enums.ExceptionEnum;
-import com.liuwangpan.urlconvert.model.BaseResponse;
+import com.liuwangpan.urlconvert.model.response.BaseResponse;
 import com.liuwangpan.urlconvert.model.request.GetOriginalUrlRequest;
 import com.liuwangpan.urlconvert.model.request.UrlConvertRequest;
 import com.liuwangpan.urlconvert.services.UrlConvertService;

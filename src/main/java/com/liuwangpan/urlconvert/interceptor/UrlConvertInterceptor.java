@@ -1,7 +1,7 @@
 package com.liuwangpan.urlconvert.interceptor;
 
 import com.liuwangpan.urlconvert.common.UrlConvertException;
-import com.liuwangpan.urlconvert.model.BaseResponse;
+import com.liuwangpan.urlconvert.model.response.BaseResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.annotation.ControllerAdvice;

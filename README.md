@@ -60,21 +60,24 @@ lru测试,当Caffeine cache 最大长度设置500W，超过500W，控制台出�
    
     
 ### 技术选型
-- spring boot 2.5.2
+- spring boot 2.6.2
 - local cache caffeine +Spring Cache manager
 - hash murmurhash
-- swagger 地址: http://localhost:8087/swagger-ui.html  api:http://localhost:8087/v2/api-docs
+- swagger 地址: http://localhost:8080/swagger-ui.html  api:http://localhost:8080/v2/api-docs
+![avatar](./images/swagger.png)
+
+
 ### 项目包结构以及说明
-        ｜config(配置信息)
-        ｜web（web请求接口）
-        ｜service(服务层)
+        ｜configs(配置信息)
+        ｜controller（web请求接口）
+        ｜services(服务层)
+        ｜common(公共类，定义异常类)
+        ｜enums(定义枚举类)
         ｜model（对象）
-            |common 公共对象
-            |web (web层接口请求与响应)
+            |(controller层接口请求与响应)
                 |request (类名以Request结尾)
-                |reponse
+                |reponse (类名以Response结尾)
         ｜utils(工具类)
-        ｜enums(枚举)    
 
 ### Jacoco单元测试覆盖率
    

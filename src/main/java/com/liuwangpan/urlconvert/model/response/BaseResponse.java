@@ -1,4 +1,4 @@
-package com.liuwangpan.urlconvert.model;
+package com.liuwangpan.urlconvert.model.response;
 
 
 import io.swagger.annotations.ApiModel;
