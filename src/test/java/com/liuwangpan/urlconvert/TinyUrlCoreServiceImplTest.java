@@ -87,7 +87,7 @@ public class TinyUrlCoreServiceImplTest {
      */
     @Test
     void getLongUrlTest() {
-        String longUrl = "http://www.baidu.com/fgksgsgfsg/aaaaa";
+        String longUrl = "https://baijiahao.baidu.com/s?id=1722459247606477869&wfr=spider&for=pc";
         String shortUrl = urlConvertService.generateShortUrl(longUrl);
         String cacheLongUrl = urlConvertService.getLongUrl(shortUrl);
         Assert.assertTrue("获取长链测试失败", StringUtils.isNotBlank(cacheLongUrl));

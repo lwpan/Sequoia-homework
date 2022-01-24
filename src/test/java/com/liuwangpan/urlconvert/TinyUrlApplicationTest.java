@@ -32,7 +32,7 @@ class TinyUrlApplicationTest {
     /**
      * 测试地址
      */
-    private final static String test_long_url = "http://www.baidu.com/";
+    private final static String test_long_url = "https://baijiahao.baidu.com/s?id=1722459247606477869&wfr=spider&for=pc";
 
 
     @BeforeEach

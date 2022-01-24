@@ -2,7 +2,9 @@
 
 ### 设计思路
 
-   ![avatar](shortrequest.jpg)
+   ![avatar](./images/shortToLong.png)
+   ![avatar](./images/longToShort.png)
+      
 
    
 URL 短链，就是把原来较长的网址，转换成比较短的网址。经常可以在在短信和微博里可以经常看到短链的身影。之前在LeetCode中也看到过类似的题目，最核心的功能就是
@@ -31,7 +33,7 @@ URL 短链，就是把原来较长的网址，转换成比较短的网址。经�
             c)发号器,需要考虑并发加锁,并发情况下,会增加耗时
             
  方案1关键逻辑处理流程   
- ![avatar](./images/process.png)
+ ![avatar](./images/cacheThink.png)
  
 存储方案
     
